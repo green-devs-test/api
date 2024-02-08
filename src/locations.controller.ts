@@ -1,4 +1,4 @@
-import { Controller, Get, Param, Post } from '@nestjs/common';
+import { Controller, Get, HttpException, HttpStatus, Param } from '@nestjs/common';
 import { LocationsService } from './locations.service';
 
 @Controller('locations')
@@ -12,6 +12,8 @@ export class LocationsController {
 
   @Get(':province')
   getLocations(@Param('province') province: string): string[] {
-    return this.locationsService.getLocations(province);
+    const location = this.locationsService.getLocations(province);
+    if (!location) throw new HttpException('Not Found', HttpStatus.NOT_FOUND)
+    return location;
   }
 }

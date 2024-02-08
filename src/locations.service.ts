@@ -7,7 +7,7 @@ export class LocationsService {
     return provinces.map(province => province.name);
   }
   getLocations(provinceName: string): string[] {
-    return provinces.find((provinceData) => provinceData.name.toLowerCase() === provinceName.toLowerCase() ).locations
+    return provinces.find((provinceData) => provinceData.name.toLowerCase() === provinceName.toLowerCase() )?.locations
   }
 }
 
