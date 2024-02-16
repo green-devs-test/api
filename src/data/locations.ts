@@ -1,4 +1,10 @@
-const provinces = [
+interface province {
+  id: number,
+  name: string,
+  locations: string[]
+}
+
+const provinces: province[] = [
   {
     id: 1,
     name: 'Buenos Aires',
