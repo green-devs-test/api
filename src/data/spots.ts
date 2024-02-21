@@ -1,4 +1,4 @@
-interface spot {
+export interface ISpot {
     id: number,
     name: string,
     address: string,
@@ -7,13 +7,13 @@ interface spot {
     materials: string[]
 }
 
-interface location {
+export interface ILocation {
     id: number,
     name: string,
-    spots: spot[]
+    spots: ISpot[]
 }
 
-const locationsBuenosAires: location[] = [
+const locationsBuenosAires: ILocation[] = [
     {
       id: 1,
       name: 'San Telmo',

@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import provinces from './data/locations';
-import locationsBuenosAires from './data/spots';
+import locationsBuenosAires, { ISpot } from './data/spots';
 
 @Injectable()
 export class GeoLocationService {
@@ -9,26 +9,16 @@ export class GeoLocationService {
   }
   getLocations(provinceName: string): string[] {
     //validate provinceName
-    return provinces.find((provinceData) => provinceData.name.toLowerCase() === provinceName.toLowerCase() )?.locations
+    return provinces.find((provinceData) => provinceData.name.toLowerCase() === provinceName)?.locations
   }
-  getSpots(provinceName: string, locationName: string): string[] {
+  getSpots(provinceName: string, locationName: string): ISpot[] {
     //validate provinceName
     //validate locationName
 
     let spots = [];
-    //buenos aires
-    console.log(provinceName.toLowerCase() === provinces[0].name.toLowerCase())
-    if(provinceName.toLowerCase() === provinces[0].name.toLowerCase()) spots = locationsBuenosAires.find(location => location.name.toLowerCase() === locationName.toLowerCase())?.spots
-    if(provinceName.toLowerCase() === provinces[1].name.toLowerCase()) spots = locationsBuenosAires.find(location => location.name.toLowerCase() === locationName.toLowerCase())?.spots
+    if(provinceName === provinces[0].name.toLowerCase()) spots = locationsBuenosAires.find(location => location.name.toLowerCase() === locationName)?.spots
+    if(provinceName === provinces[1].name.toLowerCase()) spots = locationsBuenosAires.find(location => location.name.toLowerCase() === locationName)?.spots
 
-    console.log("spots", spots)
-    /* 
-      buscar la provincia
-      validar que la location pertenece a la provincia
-      teniendo la provincia, usar locationsBuenosAires o locationsMendoza
-      teniendo la location filtrar locationsBuenosAires o locationsMendoza
-      devolver los spots existentes
-    */
     return spots
   }
 }
