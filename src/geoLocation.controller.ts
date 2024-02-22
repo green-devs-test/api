@@ -2,7 +2,7 @@ import { Controller, Get, HttpException, HttpStatus, Param } from '@nestjs/commo
 import { GeoLocationService } from './geoLocation.service';
 import { ISpot } from './data/spots';
 
-@Controller('locations')
+@Controller('provinces')
 export class LocationsController {
   constructor(private readonly geoLocationsService: GeoLocationService) {}
 
