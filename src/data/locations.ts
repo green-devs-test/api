@@ -1,4 +1,4 @@
-interface IProvince {
+export interface IProvince {
   id: number,
   name: string,
   locations: string[]

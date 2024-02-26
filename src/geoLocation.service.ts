@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import provinces from './data/locations';
+import provinces, { IProvince } from './data/locations';
 import locationsBuenosAires, { ISpot } from './data/spots';
 
 @Injectable()
 export class GeoLocationService {
-  getProvinces(): string[] {
-    return provinces.map(province => province.name);
+  getProvinces(): IProvince[] {
+    return provinces;
   }
   getLocations(provinceName: string): string[] {
     //validate provinceName

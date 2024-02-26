@@ -1,13 +1,14 @@
 import { Controller, Get, HttpException, HttpStatus, Param } from '@nestjs/common';
 import { GeoLocationService } from './geoLocation.service';
 import { ISpot } from './data/spots';
+import { IProvince } from './data/locations';
 
 @Controller('provinces')
 export class LocationsController {
   constructor(private readonly geoLocationsService: GeoLocationService) {}
 
   @Get()
-  getProvinces(): string[] {
+  getProvinces(): IProvince[] {
     return this.geoLocationsService.getProvinces();
   }
 
