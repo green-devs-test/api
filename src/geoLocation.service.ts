@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import provinces, { IProvince } from './data/locations';
+import provinces, { IProvince } from './data/provinces';
 import locationsBuenosAires, { ISpot } from './data/spots';
 
 @Injectable()
