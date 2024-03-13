@@ -104,4 +104,30 @@ const locationsBuenosAires: ILocation[] = [
   },
 ];
 
-export default locationsBuenosAires;
+const locationsMendoza: ILocation[] = [
+  {
+    id: 1,
+    name: 'mendoza',
+    spots: [
+      {
+        id: 1,
+        address: 'direccion',
+        link: '',
+        name: 'name',
+        telephone: null,
+        materials: [
+          MATERIALS.PAPERS,
+          MATERIALS.CARTONS,
+          MATERIALS.PLASTICS,
+          MATERIALS.CANS,
+          MATERIALS.WASTEOIL,
+          MATERIALS.COFFEECAPSULES,
+          MATERIALS.BATTERIES,
+          MATERIALS.ORGANIC,
+        ],
+      },
+    ],
+  },
+];
+
+export { locationsBuenosAires, locationsMendoza };
