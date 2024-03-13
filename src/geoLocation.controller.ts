@@ -1,4 +1,10 @@
-import { Controller, Get, HttpException, HttpStatus, Param } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  HttpException,
+  HttpStatus,
+  Param,
+} from '@nestjs/common';
 import { GeoLocationService } from './geoLocation.service';
 import { ISpot } from './data/spots';
 import { IProvince } from './data/provinces';
@@ -14,13 +20,21 @@ export class GeoLocationController {
 
   @Get(':province')
   getLocations(@Param('province') province: string): string[] {
-    const location = this.geoLocationsService.getLocations(province.toLowerCase());
-    if (!location) throw new HttpException('Not Found', HttpStatus.NOT_FOUND)
+    const location = this.geoLocationsService.getLocations(
+      province.toLowerCase(),
+    );
+    if (!location) throw new HttpException('Not Found', HttpStatus.NOT_FOUND);
     return location;
   }
 
   @Get(':province/:location')
-  getSpots(@Param('province') province: string, @Param('location') location: string): ISpot[] {
-    return this.geoLocationsService.getSpots(province.toLowerCase(), location.toLowerCase());
+  getSpots(
+    @Param('province') province: string,
+    @Param('location') location: string,
+  ): ISpot[] {
+    return this.geoLocationsService.getSpots(
+      province.toLowerCase(),
+      location.toLowerCase(),
+    );
   }
 }
