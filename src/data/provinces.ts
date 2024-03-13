@@ -1,7 +1,7 @@
 export interface IProvince {
-  id: number,
-  name: string,
-  locations: string[]
+  id: number;
+  name: string;
+  locations: string[];
 }
 
 const provinces: IProvince[] = [
