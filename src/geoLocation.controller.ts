@@ -6,7 +6,7 @@ import {
   Param,
 } from '@nestjs/common';
 import { GeoLocationService } from './geoLocation.service';
-import { ISpot } from './data/spots';
+import { ILocation, ISpot } from './data/locations';
 import { IProvince } from './data/provinces';
 
 @Controller('provinces')
@@ -19,7 +19,7 @@ export class GeoLocationController {
   }
 
   @Get(':province')
-  getLocations(@Param('province') province: string): string[] {
+  getLocations(@Param('province') province: string): ILocation[] {
     const location = this.geoLocationsService.getLocations(
       province.toLowerCase(),
     );

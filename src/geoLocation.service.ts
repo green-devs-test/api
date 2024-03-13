@@ -1,13 +1,22 @@
 import { Injectable } from '@nestjs/common';
 import provinces, { IProvince } from './data/provinces';
-import locationsBuenosAires, { ISpot } from './data/spots';
+import { ILocation, ISpot, locationsBuenosAires } from './data/locations';
 
 @Injectable()
 export class GeoLocationService {
   getProvinces(): IProvince[] {
-    return provinces;
+    // array deep copy
+    const clonedProvinces = [];
+    provinces.forEach((province) =>
+      clonedProvinces.push(Object.assign({}, province)),
+    );
+    clonedProvinces.map((province) => {
+      province.locations = null;
+      return province;
+    });
+    return clonedProvinces;
   }
-  getLocations(provinceName: string): string[] {
+  getLocations(provinceName: string): ILocation[] {
     //validate provinceName
     return provinces.find(
       (provinceData) => provinceData.name.toLowerCase() === provinceName,

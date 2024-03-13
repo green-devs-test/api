@@ -4,7 +4,7 @@ import * as matchers from 'jest-extended';
 import { GeoLocationController } from './geoLocation.controller';
 import { GeoLocationService } from './geoLocation.service';
 import provinces from './data/provinces';
-import locationsBuenosAires from './data/spots';
+import { locationsBuenosAires } from './data/locations';
 
 describe('geoLocation', () => {
   let geoLocationController: GeoLocationController;
@@ -21,17 +21,26 @@ describe('geoLocation', () => {
   });
 
   describe('geoLocation /provinces', () => {
+    const provincesWithoutLocations = [];
+    provinces.forEach((province) =>
+      provincesWithoutLocations.push(Object.assign({}, province)),
+    );
+    provincesWithoutLocations.map((province) => {
+      province.locations = null;
+      return province;
+    });
     it('should return the right provinces', () => {
-      expect(geoLocationController.getProvinces()).toBe(provinces);
+      expect(geoLocationController.getProvinces()).toStrictEqual(
+        provincesWithoutLocations,
+      );
+    });
+    it('should have the locationsLength property', () => {
+      geoLocationController.getProvinces().map((province) => {
+        expect(province).toHaveProperty('locationsLength');
+      });
     });
     it('should have at least one province', () => {
       expect(geoLocationController.getProvinces().length).toBeGreaterThan(0);
-    });
-    it('should have at least one location for each province', () => {
-      geoLocationController.getProvinces().map((province) => {
-        expect(province).toHaveProperty('locations');
-        expect(province.locations.length).toBeGreaterThan(0);
-      });
     });
   });
 
@@ -47,10 +56,8 @@ describe('geoLocation', () => {
         geoLocationController.getLocations(provinceName).length,
       ).toBeGreaterThan(0);
     });
-    it('should return locations as strings', () => {
-      geoLocationController
-        .getLocations(provinceName)
-        .map((location) => expect(location).toBeString());
+    it('should return locations as array', () => {
+      expect(geoLocationController.getLocations(provinceName)).toBeArray();
     });
   });
 

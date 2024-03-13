@@ -1,43 +1,24 @@
+import { ILocation, locationsBuenosAires, locationsMendoza } from './locations';
+
 export interface IProvince {
   id: number;
   name: string;
-  locations: string[];
+  locations: ILocation[];
+  locationsLength: number;
 }
 
 const provinces: IProvince[] = [
   {
     id: 1,
     name: 'Buenos Aires',
-    locations: [
-      'San Telmo',
-      'La Boca',
-      'Recoleta',
-      'Balvanera',
-      'Barracas',
-      'Almagro',
-      'Boedo',
-      'Caballito',
-      'Flores',
-      'Parque Chacabuco',
-      'Villa Soldati',
-      'Villa Lugano',
-      'Liniers',
-      'Villa Real',
-      'Monte Castro',
-      'Floresta',
-      'Nuñez',
-      'Saavedra',
-      'Villa Urquiza',
-      'Retiro',
-      'Parque Patricios',
-      'Nueva Pompeya',
-      'Constitucion',
-    ],
+    locations: locationsBuenosAires,
+    locationsLength: locationsBuenosAires.length,
   },
   {
     id: 2,
     name: 'Mendoza',
-    locations: ['Capital', 'Godoy Cruz'],
+    locations: locationsMendoza,
+    locationsLength: locationsMendoza.length,
   },
 ];
 
