@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import provinces, { IProvince } from './data/provinces';
-import { ILocation, ISpot, locationsBuenosAires } from './data/locations';
+import { ILocation, ISpot, locationsBuenosAires, locationsMendoza } from './data/locations';
 
 @Injectable()
 export class GeoLocationService {
@@ -32,7 +32,7 @@ export class GeoLocationService {
         (location) => location.name.toLowerCase() === locationName,
       )?.spots;
     if (provinceName === provinces[1].name.toLowerCase())
-      spots = locationsBuenosAires.find(
+      spots = locationsMendoza.find(
         (location) => location.name.toLowerCase() === locationName,
       )?.spots;
 
