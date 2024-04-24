@@ -1,18 +1,21 @@
 import { MATERIALS } from './materials';
 
+interface ILocation {
+  id: number;
+  name: string;
+  latitude?: string;
+  longitude?: string;
+  spots: ISpot[];
+}
+import locations_mza from './sources/locations_mza.json';
+
 export interface ISpot {
   id: number;
   name: string;
   address: string;
-  link: string | null;
-  telephone: string | null;
-  materials: string[];
-}
-
-export interface ILocation {
-  id: number;
-  name: string;
-  spots: ISpot[];
+  link?: string;
+  telephone?: string;
+  materials?: string[];
 }
 
 const locationsBuenosAires: ILocation[] = [
@@ -104,7 +107,7 @@ const locationsBuenosAires: ILocation[] = [
   },
 ];
 
-const locationsMendoza: ILocation[] = [
+/* const locationsMendoza: ILocation[] = [
   {
     id: 1,
     name: 'Capital',
@@ -162,6 +165,8 @@ const locationsMendoza: ILocation[] = [
       },
     ],
   },
-];
+]; */
 
-export { locationsBuenosAires, locationsMendoza };
+const locationsMendoza: ILocation[] = [locations_mza as ILocation];
+
+export { locationsBuenosAires, locationsMendoza, ILocation };

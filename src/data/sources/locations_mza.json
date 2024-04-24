@@ -1,0 +1,686 @@
+{
+  "id": 1,
+  "name": "Capital",
+  "spots": [
+    {
+      "id": 1,
+      "name": "B° Sanidad (UV)",
+      "address": "Cerro Fundición",
+      "link": "https://www.google.com/maps/place/-32.864470000000004,-68.884839999999997",
+      "telephone": null,
+      "latitude": "-32.864470000000004",
+      "longitude": "-68.884839999999997",
+      "materials": 1
+    },
+    {
+      "id": 2,
+      "name": "Parque Aborigen",
+      "address": "Mosconi 150",
+      "link": "https://www.google.com/maps/place/-32.862299999999998,-68.834209999999999",
+      "telephone": null,
+      "latitude": "-32.862299999999998",
+      "longitude": "-68.834209999999999",
+      "materials": 2
+    },
+    {
+      "id": 3,
+      "name": "Gimnasio N° 4",
+      "address": "Potrerillos 799-899",
+      "link": "https://www.google.com/maps/place/-32.866239999999998,-68.868029999999990",
+      "telephone": null,
+      "latitude": "-32.866239999999998",
+      "longitude": "-68.868029999999990",
+      "materials": 3
+    },
+    {
+      "id": 4,
+      "name": "RAMA- Potrerillos y Tolosa",
+      "address": "Potrerillos y Tolosa",
+      "link": "https://www.google.com/maps/place/-32.865610000000004,-68.861390000000000",
+      "telephone": null,
+      "latitude": "-32.865610000000004",
+      "longitude": "-68.861390000000000",
+      "materials": 4
+    },
+    {
+      "id": 5,
+      "name": "Gimnasio N° 2",
+      "address": "Alpatacal 3150",
+      "link": "https://www.google.com/maps/place/-32.866079999999997,-68.853760000000008",
+      "telephone": null,
+      "latitude": "-32.866079999999997",
+      "longitude": "-68.853760000000008",
+      "materials": 5
+    },
+    {
+      "id": 6,
+      "name": "Parque Lineal(Hudson)",
+      "address": "Peru y Hudson",
+      "link": "https://www.google.com/maps/place/-32.865879999999997,-68.841790000000003",
+      "telephone": null,
+      "latitude": "-32.865879999999997",
+      "longitude": "-68.841790000000003",
+      "materials": 6
+    },
+    {
+      "id": 7,
+      "name": "C.I.C 1",
+      "address": "9 de julio 3565",
+      "link": "https://www.google.com/maps/place/-32.862920000000003,-68.833320000000001",
+      "telephone": null,
+      "latitude": "-32.862920000000003",
+      "longitude": "-68.833320000000001",
+      "materials": 7
+    },
+    {
+      "id": 8,
+      "name": "Plaza Mathus Hoyos",
+      "address": "Santiago del Estero",
+      "link": "https://www.google.com/maps/place/-32.870640000000002,-68.821200000000005",
+      "telephone": null,
+      "latitude": "-32.870640000000002",
+      "longitude": "-68.821200000000005",
+      "materials": 8
+    },
+    {
+      "id": 9,
+      "name": "Plaza Mathus Hoyos",
+      "address": "Santiago del Estero, M5500",
+      "link": "https://www.google.com/maps/place/-32.869999999999997,-68.817029999999988",
+      "telephone": null,
+      "latitude": "-32.869999999999997",
+      "longitude": "-68.817029999999988",
+      "materials": 9
+    },
+    {
+      "id": 10,
+      "name": "Av. Champagnat",
+      "address": "Lomas Av Champagnat",
+      "link": "https://www.google.com/maps/place/-32.872279999999996,-68.883350000000007",
+      "telephone": null,
+      "latitude": "-32.872279999999996",
+      "longitude": "-68.883350000000007",
+      "materials": 10
+    },
+    {
+      "id": 11,
+      "name": "Plaza Malarros De Torres",
+      "address": "Los Nogales 749-799",
+      "link": "https://www.google.com/maps/place/-32.869030000000002,-68.867890000000003",
+      "telephone": null,
+      "latitude": "-32.869030000000002",
+      "longitude": "-68.867890000000003",
+      "materials": 11
+    },
+    {
+      "id": 12,
+      "name": "Santa Rita",
+      "address": "Barrio Santa Rita",
+      "link": "https://www.google.com/maps/place/-32.872730000000004,-68.867210000000000",
+      "telephone": null,
+      "latitude": "-32.872730000000004",
+      "longitude": "-68.867210000000000",
+      "materials": 12
+    },
+    {
+      "id": 13,
+      "name": "Plaza Malvinas Argentinas",
+      "address": "Rodríguez Cnel. 2701-2799",
+      "link": "https://www.google.com/maps/place/-32.870719999999999,-68.847560000000001",
+      "telephone": null,
+      "latitude": "-32.870719999999999",
+      "longitude": "-68.847560000000001",
+      "materials": 13
+    },
+    {
+      "id": 14,
+      "name": "Plaza Coperativa Bº San Martín",
+      "address": "Cooperativa",
+      "link": "https://www.google.com/maps/place/-32.867800000000003,-68.862210000000005",
+      "telephone": null,
+      "latitude": "-32.867800000000003",
+      "longitude": "-68.862210000000005",
+      "materials": 14
+    },
+    {
+      "id": 15,
+      "name": "Plaza Irigoyen",
+      "address": "Patricias Mendocinas 2920-2902",
+      "link": "https://www.google.com/maps/place/-32.869130000000006,-68.837669999999989",
+      "telephone": null,
+      "latitude": "-32.869130000000006",
+      "longitude": "-68.837669999999989",
+      "materials": 15
+    },
+    {
+      "id": 16,
+      "name": "Parque Lineal(V.Correa)",
+      "address": "Peru y Videla Correa",
+      "link": "https://www.google.com/maps/place/-32.865879999999997,-68.841790000000003",
+      "telephone": null,
+      "latitude": "-32.865879999999997",
+      "longitude": "-68.841790000000003",
+      "materials": 16
+    },
+    {
+      "id": 17,
+      "name": "Gimnasio N° 3",
+      "address": "Ayacucho 349",
+      "link": "https://www.google.com/maps/place/-32.874260000000000,-68.827829999999992",
+      "telephone": null,
+      "latitude": "-32.874260000000000",
+      "longitude": "-68.827829999999992",
+      "materials": 17
+    },
+    {
+      "id": 18,
+      "name": "Plaza B° Santa Rita",
+      "address": "Tucumán 500-402",
+      "link": "https://www.google.com/maps/place/-32.872859999999996,-68.867560000000012",
+      "telephone": null,
+      "latitude": "-32.872859999999996",
+      "longitude": "-68.867560000000012",
+      "materials": 18
+    },
+    {
+      "id": 19,
+      "name": "Plaza Yrigoyen",
+      "address": "Patricias Mendocinas 2801-2899",
+      "link": "https://www.google.com/maps/place/-32.868899999999996,-68.837850000000003",
+      "telephone": null,
+      "latitude": "-32.868899999999996",
+      "longitude": "-68.837850000000003",
+      "materials": 19
+    },
+    {
+      "id": 20,
+      "name": "Liceo Militar General Espejo",
+      "address": "Av. Boulogne Sur Mer 2136",
+      "link": "https://www.google.com/maps/place/-32.874220000000001,-68.859390000000005",
+      "telephone": null,
+      "latitude": "-32.874220000000001",
+      "longitude": "-68.859390000000005",
+      "materials": 20
+    },
+    {
+      "id": 21,
+      "name": "Plaza Mathons",
+      "address": "Jorge Newbery 450-402",
+      "link": "https://www.google.com/maps/place/-32.873469999999998,-68.852069999999998",
+      "telephone": null,
+      "latitude": "-32.873469999999998",
+      "longitude": "-68.852069999999998",
+      "materials": 21
+    },
+    {
+      "id": 22,
+      "name": "Plaza Cobos",
+      "address": "Santiago del Estero 331",
+      "link": "https://www.google.com/maps/place/-32.870860000000000,-68.831590000000006",
+      "telephone": null,
+      "latitude": "-32.870860000000000",
+      "longitude": "-68.831590000000006",
+      "materials": 22
+    },
+    {
+      "id": 23,
+      "name": "Parque Central 1",
+      "address": "Los Toneles 405-409",
+      "link": "https://www.google.com/maps/place/-32.876890000000003,-68.842860000000002",
+      "telephone": null,
+      "latitude": "-32.876890000000003",
+      "longitude": "-68.842860000000002",
+      "materials": 23
+    },
+    {
+      "id": 24,
+      "name": "Parque Central(Lateral calle Chile)",
+      "address": "Calle Chile, Parque Central",
+      "link": "https://www.google.com/maps/place/-32.874350000000000,-68.841969999999989",
+      "telephone": null,
+      "latitude": "-32.874350000000000",
+      "longitude": "-68.841969999999989",
+      "materials": 24
+    },
+    {
+      "id": 25,
+      "name": "Parque Central(el parral)",
+      "address": "Calle El Parral, Parque Central",
+      "link": "https://www.google.com/maps/place/-32.873950000000001,-68.843110000000010",
+      "telephone": null,
+      "latitude": "-32.873950000000001",
+      "longitude": "-68.843110000000010",
+      "materials": 25
+    },
+    {
+      "id": 26,
+      "name": "Nave Cultural",
+      "address": "Las Cubas 201",
+      "link": "https://www.google.com/maps/place/-32.877589999999998,-68.839889999999997",
+      "telephone": null,
+      "latitude": "-32.877589999999998",
+      "longitude": "-68.839889999999997",
+      "materials": 26
+    },
+    {
+      "id": 27,
+      "name": "Parque Central(Vendimiadores)",
+      "address": "Calle Vendimiadores, Parque Central",
+      "link": "https://www.google.com/maps/place/-32.877420000000001,-68.842169999999996",
+      "telephone": null,
+      "latitude": "-32.877420000000001",
+      "longitude": "-68.842169999999996",
+      "materials": 27
+    },
+    {
+      "id": 28,
+      "name": "Gimnasio N° 5",
+      "address": "B° Alto Mendoza 11va Sección",
+      "link": "https://www.google.com/maps/place/-32.887530000000005,-68.903179999999992",
+      "telephone": null,
+      "latitude": "-32.887530000000005",
+      "longitude": "-68.903179999999992",
+      "materials": 28
+    },
+    {
+      "id": 29,
+      "name": "Plaza B° Soberanía",
+      "address": "Ingenieros J. 1660",
+      "link": "https://www.google.com/maps/place/-32.877310000000001,-68.873000000000005",
+      "telephone": null,
+      "latitude": "-32.877310000000001",
+      "longitude": "-68.873000000000005",
+      "materials": 29
+    },
+    {
+      "id": 30,
+      "name": "Colegio Norbridge",
+      "address": "Barcala 471",
+      "link": "https://www.google.com/maps/place/-32.881659999999997,-68.843199999999996",
+      "telephone": null,
+      "latitude": "-32.881659999999997",
+      "longitude": "-68.843199999999996",
+      "materials": 30
+    },
+    {
+      "id": 31,
+      "name": "Plazoleta Godoy",
+      "address": "Olascoaga 1301-1379",
+      "link": "https://www.google.com/maps/place/-32.898000000000003,-68.843400000000003",
+      "telephone": null,
+      "latitude": "-32.898000000000003",
+      "longitude": "-68.843400000000003",
+      "materials": 31
+    },
+    {
+      "id": 32,
+      "name": "Alameda",
+      "address": "San Martín 2170",
+      "link": "https://www.google.com/maps/place/-32.878940000000000,-68.835290000000001",
+      "telephone": null,
+      "latitude": "-32.878940000000000",
+      "longitude": "-68.835290000000001",
+      "materials": 32
+    },
+    {
+      "id": 33,
+      "name": "Mitre y Godoy Cruz",
+      "address": "Mitre y Godoy Cruz",
+      "link": "https://www.google.com/maps/place/-32.883359999999996,-68.842849999999999",
+      "telephone": null,
+      "latitude": "-32.883359999999996",
+      "longitude": "-68.842849999999999",
+      "materials": 33
+    },
+    {
+      "id": 34,
+      "name": "Irrigacion",
+      "address": "Barcala y España",
+      "link": "https://www.google.com/maps/place/-32.882019999999997,-68.839889999999997",
+      "telephone": null,
+      "latitude": "-32.882019999999997",
+      "longitude": "-68.839889999999997",
+      "materials": 34
+    },
+    {
+      "id": 35,
+      "name": "Vea Patricias Mendocinas",
+      "address": "\"Patricias Mendocinas y Barcala\"",
+      "link": "https://www.google.com/maps/place/-32.882230000000000,-68.838639999999998",
+      "telephone": null,
+      "latitude": "-32.882230000000000",
+      "longitude": "-68.838639999999998",
+      "materials": 35
+    },
+    {
+      "id": 36,
+      "name": "Colegio ICEI",
+      "address": "Gral Paz 531",
+      "link": "https://www.google.com/maps/place/-32.883929999999999,-68.844820000000013",
+      "telephone": null,
+      "latitude": "-32.883929999999999",
+      "longitude": "-68.844820000000013",
+      "materials": 36
+    },
+    {
+      "id": 37,
+      "name": "Chirolas Bar",
+      "address": "J, B. Justo 362",
+      "link": "https://www.google.com/maps/place/-32.883910000000000,-68.853650000000002",
+      "telephone": null,
+      "latitude": "-32.883910000000000",
+      "longitude": "-68.853650000000002",
+      "materials": 37
+    },
+    {
+      "id": 38,
+      "name": "Aristides y Huarpes",
+      "address": "Aristides y Huarpes",
+      "link": "https://www.google.com/maps/place/-32.891069999999999,-68.860360000000000",
+      "telephone": null,
+      "latitude": "-32.891069999999999",
+      "longitude": "-68.860360000000000",
+      "materials": 38
+    },
+    {
+      "id": 39,
+      "name": "Plazoleta Godoy",
+      "address": "Avellaneda y Martinez de Rosas",
+      "link": "https://www.google.com/maps/place/-32.885479999999994,-68.855060000000009",
+      "telephone": null,
+      "latitude": "-32.885479999999994",
+      "longitude": "-68.855060000000009",
+      "materials": 39
+    },
+    {
+      "id": 40,
+      "name": "Arístides y Paso de Los Andes",
+      "address": "Arístides y Paso de Los Andes",
+      "link": "https://www.google.com/maps/place/-32.891239999999996,-68.858950000000007",
+      "telephone": null,
+      "latitude": "-32.891239999999996",
+      "longitude": "-68.858950000000007",
+      "materials": 40
+    },
+    {
+      "id": 41,
+      "name": "Arístides y Olascoaga",
+      "address": "Arístides y Olascoaga",
+      "link": "https://www.google.com/maps/place/-32.892530000000001,-68.854690000000005",
+      "telephone": null,
+      "latitude": "-32.892530000000001",
+      "longitude": "-68.854690000000005",
+      "materials": 41
+    },
+    {
+      "id": 42,
+      "name": "Escuela Adventitsa",
+      "address": "Tiburcio Benegas 1283,",
+      "link": "https://www.google.com/maps/place/-32.886430000000004,-68.850720000000010",
+      "telephone": null,
+      "latitude": "-32.886430000000004",
+      "longitude": "-68.850720000000010",
+      "materials": 42
+    },
+    {
+      "id": 43,
+      "name": "Acuario Municipal",
+      "address": "Ituzaingó 1425",
+      "link": "https://www.google.com/maps/place/-32.887390000000003,-68.829920000000001",
+      "telephone": null,
+      "latitude": "-32.887390000000003",
+      "longitude": "-68.829920000000001",
+      "materials": 43
+    },
+    {
+      "id": 44,
+      "name": "25 De Mayo",
+      "address": "25 De mayo",
+      "link": "https://www.google.com/maps/place/-32.889410000000005,-68.847049999999996",
+      "telephone": null,
+      "latitude": "-32.889410000000005",
+      "longitude": "-68.847049999999996",
+      "materials": 44
+    },
+    {
+      "id": 45,
+      "name": "Gutierrez",
+      "address": "Gutierrez 338",
+      "link": "https://www.google.com/maps/place/-32.887760000000000,-68.843649999999997",
+      "telephone": null,
+      "latitude": "-32.887760000000000",
+      "longitude": "-68.843649999999997",
+      "materials": 45
+    },
+    {
+      "id": 46,
+      "name": "Gutierrez y España (Cultura)",
+      "address": "Gutierrez y España",
+      "link": "https://www.google.com/maps/place/-32.888179999999998,-68.847579999999994",
+      "telephone": null,
+      "latitude": "-32.888179999999998",
+      "longitude": "-68.847579999999994",
+      "materials": 46
+    },
+    {
+      "id": 47,
+      "name": "Colegio San Andres",
+      "address": "J. V. Gonzalez 630",
+      "link": "https://www.google.com/maps/place/-32.881619999999998,-68.857360000000000",
+      "telephone": null,
+      "latitude": "-32.881619999999998",
+      "longitude": "-68.857360000000000",
+      "materials": 47
+    },
+    {
+      "id": 48,
+      "name": "Calendula",
+      "address": "Granaderos y Zapata",
+      "link": "https://www.google.com/maps/place/-32.887760000000000,-68.843649999999997",
+      "telephone": null,
+      "latitude": "-32.887760000000000",
+      "longitude": "-68.843649999999997",
+      "materials": 48
+    },
+    {
+      "id": 49,
+      "name": "Necochea (San Francisco)",
+      "address": "Necochea 275",
+      "link": "https://www.google.com/maps/place/-32.886759999999995,-68.841989999999996",
+      "telephone": null,
+      "latitude": "-32.886759999999995",
+      "longitude": "-68.841989999999996",
+      "materials": 49
+    },
+    {
+      "id": 50,
+      "name": "Plazoleta de Los Poetas",
+      "address": "Olascoaga y Zapata",
+      "link": "https://www.google.com/maps/place/-32.890239999999999,-68.854410000000001",
+      "telephone": null,
+      "latitude": "-32.890239999999999",
+      "longitude": "-68.854410000000001",
+      "materials": 50
+    },
+    {
+      "id": 51,
+      "name": "Escuela Sarmiento",
+      "address": "Julio A. Roca 343",
+      "link": "https://www.google.com/maps/place/-32.890239999999999,-68.854410000000001",
+      "telephone": null,
+      "latitude": "-32.890239999999999",
+      "longitude": "-68.854410000000001",
+      "materials": 51
+    },
+    {
+      "id": 52,
+      "name": "Plaza Independencia",
+      "address": "Patricias Mendocinas 1194-1110",
+      "link": "https://www.google.com/maps/place/-32.889850000000003,-68.843229999999991",
+      "telephone": null,
+      "latitude": "-32.889850000000003",
+      "longitude": "-68.843229999999991",
+      "materials": 52
+    },
+    {
+      "id": 53,
+      "name": "Escuela Quimicos",
+      "address": "Rodriguez y Lamadrid",
+      "link": "https://www.google.com/maps/place/-32.898450000000004,-68.853960000000001",
+      "telephone": null,
+      "latitude": "-32.898450000000004",
+      "longitude": "-68.853960000000001",
+      "materials": 53
+    },
+    {
+      "id": 54,
+      "name": "U.T.N.",
+      "address": "Rodeiguez 273",
+      "link": "https://www.google.com/maps/place/-32.897310000000004,-68.853129999999993",
+      "telephone": null,
+      "latitude": "-32.897310000000004",
+      "longitude": "-68.853129999999993",
+      "materials": 54
+    },
+    {
+      "id": 55,
+      "name": "San Martin y Virgen del Carmen de Cuyo",
+      "address": "San Martin y Virgen del Carmen de Cuyo",
+      "link": "https://www.google.com/maps/place/-32.898270000000004,-68.841350000000006",
+      "telephone": null,
+      "latitude": "-32.898270000000004",
+      "longitude": "-68.841350000000006",
+      "materials": 55
+    },
+    {
+      "id": 56,
+      "name": "Pedro Molina y Mitre",
+      "address": "Pedro Molina y Mitre",
+      "link": "https://www.google.com/maps/place/-32.896319999999996,-68.845839999999995",
+      "telephone": null,
+      "latitude": "-32.896319999999996",
+      "longitude": "-68.845839999999995",
+      "materials": 56
+    },
+    {
+      "id": 57,
+      "name": "Escuela Mitre",
+      "address": "San Juan 417",
+      "link": "https://www.google.com/maps/place/-32.898750000000000,-68.839029999999994",
+      "telephone": null,
+      "latitude": "-32.898750000000000",
+      "longitude": "-68.839029999999994",
+      "materials": 57
+    },
+    {
+      "id": 58,
+      "name": "Pedro Molina y San Martin",
+      "address": "Pedro Molina y San Martin",
+      "link": "https://www.google.com/maps/place/-32.896550000000005,-68.841290000000001",
+      "telephone": null,
+      "latitude": "-32.896550000000005",
+      "longitude": "-68.841290000000001",
+      "materials": 58
+    },
+    {
+      "id": 59,
+      "name": "Plaza Belgrano (B°Bombal)",
+      "address": "Cap. Moyano 475",
+      "link": "https://www.google.com/maps/place/-32.901310000000002,-68.848900000000000",
+      "telephone": null,
+      "latitude": "-32.901310000000002",
+      "longitude": "-68.848900000000000",
+      "materials": 59
+    },
+    {
+      "id": 60,
+      "name": "Escuela Mitre",
+      "address": "San Juan 417",
+      "link": "https://www.google.com/maps/place/-32.862299999999998,-68.834209999999999",
+      "telephone": null,
+      "latitude": "-32.862299999999998",
+      "longitude": "-68.834209999999999",
+      "materials": 60
+    },
+    {
+      "id": 61,
+      "name": "Palero y Semorille",
+      "address": "Palero y Semorille",
+      "link": "https://www.google.com/maps/place/-32.901139999999998,-68.852850000000004",
+      "telephone": null,
+      "latitude": "-32.901139999999998",
+      "longitude": "-68.852850000000004",
+      "materials": 61
+    },
+    {
+      "id": 62,
+      "name": "Plazoleta La Paz",
+      "address": "Mariano Moreno 300-202",
+      "link": "https://www.google.com/maps/place/-32.902259999999998,-68.854179999999999",
+      "telephone": null,
+      "latitude": "-32.902259999999998",
+      "longitude": "-68.854179999999999",
+      "materials": 62
+    },
+    {
+      "id": 63,
+      "name": "Plaza Caseros",
+      "address": "Av. España 16",
+      "link": "https://www.google.com/maps/place/-32.902730000000005,-68.845669999999998",
+      "telephone": null,
+      "latitude": "-32.902730000000005",
+      "longitude": "-68.845669999999998",
+      "materials": 63
+    },
+    {
+      "id": 64,
+      "name": "Plaza la Paz",
+      "address": "Plazoleta La Paz",
+      "link": "https://www.google.com/maps/place/-32.902169999999998,-68.854280000000003",
+      "telephone": null,
+      "latitude": "-32.902169999999998",
+      "longitude": "-68.854280000000003",
+      "materials": 64
+    },
+    {
+      "id": 65,
+      "name": "Pedro Molina y Peru",
+      "address": "Pedro Molina y Peru",
+      "link": "https://www.google.com/maps/place/-32.881230000000002,-68.797260000000009",
+      "telephone": null,
+      "latitude": "-32.881230000000002",
+      "longitude": "-68.797260000000009",
+      "materials": 65
+    },
+    {
+      "id": 66,
+      "name": "Palero",
+      "address": "Martín Palero 70",
+      "link": "https://www.google.com/maps/place/-32.885479999999994,-68.855060000000009",
+      "telephone": null,
+      "latitude": "-32.885479999999994",
+      "longitude": "-68.855060000000009",
+      "materials": 66
+    },
+    {
+      "id": 67,
+      "name": "Plaza Belgrano",
+      "address": "La Pampa 300-172",
+      "link": "https://www.google.com/maps/place/-32.901430000000005,-68.848369999999989",
+      "telephone": null,
+      "latitude": "-32.901430000000005",
+      "longitude": "-68.848369999999989",
+      "materials": 67
+    },
+    {
+      "id": 68,
+      "name": "P. B. Palacios y Alem",
+      "address": "P. B. Palacios y Alem",
+      "link": "https://www.google.com/maps/place/-32.893050000000002,-68.832310000000007",
+      "telephone": null,
+      "latitude": "-32.893050000000002",
+      "longitude": "-68.832310000000007",
+      "materials": 68
+    }
+  ]
+}

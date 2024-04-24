@@ -1,0 +1,69 @@
+objectid;number;name;type;address;y_wgs;x_wgs;
+1;1;B° Sanidad (UV);Punto Verde;Cerro Fundición;-32,864470000000004;-68,884839999999997
+2;1;Parque Aborigen;Rulero;Mosconi 150;-32,862299999999998;-68,834209999999999
+3;2;Gimnasio N° 4;Punto Verde;Potrerillos 799-899;-32,866239999999998;-68,868029999999990
+4;2;RAMA- Potrerillos y Tolosa;Rulero;Potrerillos y Tolosa;-32,865610000000004;-68,861390000000000
+5;3;Gimnasio N° 2;Punto Verde;Alpatacal 3150;-32,866079999999997;-68,853760000000008
+6;3;Parque Lineal(Hudson);Rulero;Peru y Hudson;-32,865879999999997;-68,841790000000003
+7;4;C.I.C 1;Punto Verde;9 de julio 3565;-32,862920000000003;-68,833320000000001
+8;4;Plaza Mathus Hoyos;Rulero;Santiago del Estero;-32,870640000000002;-68,821200000000005
+9;5;Plaza Mathus Hoyos;Punto Verde;Santiago del Estero, M5500;-32,869999999999997;-68,817029999999988
+10;5;Av. Champagnat;Rulero;Lomas Av Champagnat;-32,872279999999996;-68,883350000000007
+11;6;Plaza Malarros De Torres;Punto Verde;Los Nogales 749-799;-32,869030000000002;-68,867890000000003
+12;6;Santa Rita;Rulero;Barrio Santa Rita;-32,872730000000004;-68,867210000000000
+13;7;Plaza Malvinas Argentinas;Punto Verde;Rodríguez Cnel. 2701-2799;-32,870719999999999;-68,847560000000001
+14;7;Plaza Coperativa Bº San Martín;Rulero;Cooperativa;-32,867800000000003;-68,862210000000005
+15;8;Plaza Irigoyen;Punto Verde;Patricias Mendocinas 2920-2902;-32,869130000000006;-68,837669999999989
+16;8;Parque Lineal(V.Correa);Rulero;Peru y Videla Correa;-32,865879999999997;-68,841790000000003
+17;9;Gimnasio N° 3;Punto Verde;Ayacucho 349;-32,874260000000000;-68,827829999999992
+18;9;Plaza B° Santa Rita;Punto Verde;Tucumán 500-402;-32,872859999999996;-68,867560000000012
+19;9;Plaza Yrigoyen;Rulero;Patricias Mendocinas 2801-2899;-32,868899999999996;-68,837850000000003
+20;10;Liceo Militar General Espejo;Punto Verde;Av. Boulogne Sur Mer 2136;-32,874220000000001;-68,859390000000005
+21;11;Plaza Mathons;Punto Verde;Jorge Newbery 450-402;-32,873469999999998;-68,852069999999998
+22;11;Plaza Cobos;Rulero;Santiago del Estero 331;-32,870860000000000;-68,831590000000006
+23;12;Parque Central 1;Punto Verde;Los Toneles 405-409;-32,876890000000003;-68,842860000000002
+24;12;Parque Central(Lateral calle Chile);Rulero;Calle Chile, Parque Central;-32,874350000000000;-68,841969999999989
+25;13;Parque Central(el parral);Rulero;Calle El Parral, Parque Central;-32,873950000000001;-68,843110000000010
+26;14;Nave Cultural;Punto Verde;Las Cubas 201;-32,877589999999998;-68,839889999999997
+27;14;Parque Central(Vendimiadores);Rulero;Calle Vendimiadores, Parque Central;-32,877420000000001;-68,842169999999996
+28;15;Gimnasio N° 5;Punto Verde;B° Alto Mendoza 11va Sección;-32,887530000000005;-68,903179999999992
+29;16;Plaza B° Soberanía;Punto Verde;Ingenieros J. 1660;-32,877310000000001;-68,873000000000005
+30;16;Colegio Norbridge;Rulero;Barcala 471;-32,881659999999997;-68,843199999999996
+31;17;Plazoleta Godoy;Punto Verde;Olascoaga 1301-1379;-32,898000000000003;-68,843400000000003
+32;17;Alameda;Rulero;San Martín 2170;-32,878940000000000;-68,835290000000001
+33;18;Mitre y Godoy Cruz;Punto Verde;Mitre y Godoy Cruz;-32,883359999999996;-68,842849999999999
+34;18;Irrigacion;Rulero;Barcala y España;-32,882019999999997;-68,839889999999997
+35;19;Vea Patricias Mendocinas;Punto Verde;"Patricias Mendocinas y Barcala";-32,882230000000000;-68,838639999999998
+36;19;Colegio ICEI;Rulero;Gral Paz 531;-32,883929999999999;-68,844820000000013
+37;19;Chirolas Bar;Rulero;J, B. Justo 362;-32,883910000000000;-68,853650000000002
+38;20;Aristides y Huarpes;Punto Verde;Aristides y Huarpes;-32,891069999999999;-68,860360000000000
+39;20;Plazoleta Godoy;Rulero;Avellaneda y Martinez de Rosas;-32,885479999999994;-68,855060000000009
+40;21;Arístides y Paso de Los Andes;Punto Verde;Arístides y Paso de Los Andes;-32,891239999999996;-68,858950000000007
+41;22;Arístides y Olascoaga;Punto Verde;Arístides y Olascoaga;-32,892530000000001;-68,854690000000005
+42;22;Escuela Adventitsa;Rulero;Tiburcio Benegas 1283,;-32,886430000000004;-68,850720000000010
+44;23;Acuario Municipal;Rulero;Ituzaingó 1425;-32,887390000000003;-68,829920000000001
+45;24;25 De Mayo;Punto Verde;25 De mayo;-32,889410000000005;-68,847049999999996
+46;24;Gutierrez;Rulero;Gutierrez 338;-32,887760000000000;-68,843649999999997
+47;25;Gutierrez y España (Cultura);Punto Verde;Gutierrez y España;-32,888179999999998;-68,847579999999994
+48;25;Colegio San Andres;Rulero;J. V. Gonzalez 630;-32,881619999999998;-68,857360000000000
+50;26;Calendula;Rulero;Granaderos y Zapata;-32,887760000000000;-68,843649999999997
+51;27;Necochea (San Francisco);Punto Verde;Necochea 275;-32,886759999999995;-68,841989999999996
+52;27;Plazoleta de Los Poetas;Rulero;Olascoaga y Zapata;-32,890239999999999;-68,854410000000001
+54;28;Escuela Sarmiento;Rulero;Julio A. Roca 343;-32,890239999999999;-68,854410000000001
+55;29;Plaza Independencia;Punto Verde;Patricias Mendocinas 1194-1110;-32,889850000000003;-68,843229999999991
+57;30;Escuela Quimicos;Rulero;Rodriguez y Lamadrid;-32,898450000000004;-68,853960000000001
+58;31;U.T.N.;Punto Verde;Rodeiguez 273;-32,897310000000004;-68,853129999999993
+60;32;San Martin y Virgen del Carmen de Cuyo;Punto Verde;San Martin y Virgen del Carmen de Cuyo;-32,898270000000004;-68,841350000000006
+61;32;Pedro Molina y Mitre;Rulero;Pedro Molina y Mitre;-32,896319999999996;-68,845839999999995
+62;33;Escuela Mitre;Punto Verde;San Juan 417;-32,898750000000000;-68,839029999999994
+63;33;Pedro Molina y San Martin;Rulero;Pedro Molina y San Martin;-32,896550000000005;-68,841290000000001
+64;34;Plaza Belgrano (B°Bombal);Punto Verde;Cap. Moyano 475;-32,901310000000002;-68,848900000000000
+65;35;Escuela Mitre;Rulero;San Juan 417;-32,862299999999998;-68,834209999999999
+66;36;Palero y Semorille;Punto Verde;Palero y Semorille;-32,901139999999998;-68,852850000000004
+67;36;Plazoleta La Paz;Punto Verde;Mariano Moreno 300-202;-32,902259999999998;-68,854179999999999
+68;36;Plaza Caseros;Rulero;Av. España 16;-32,902730000000005;-68,845669999999998
+71;38;Plaza la Paz;Rulero;Plazoleta La Paz;-32,902169999999998;-68,854280000000003
+59;31;Pedro Molina y Peru;Rulero;Pedro Molina y Peru;-32,881230000000002;-68,797260000000009
+73;39;Palero;Rulero;Martín Palero 70;-32,885479999999994;-68,855060000000009
+74;40;Plaza Belgrano;Rulero;La Pampa 300-172;-32,901430000000005;-68,848369999999989
+75;41;P. B. Palacios y Alem;Rulero;P. B. Palacios y Alem;-32,893050000000002;-68,832310000000007
