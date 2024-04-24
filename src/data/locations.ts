@@ -110,47 +110,13 @@ const locationsBuenosAires: ILocation[] = [
 /* const locationsMendoza: ILocation[] = [
   {
     id: 1,
-    name: 'Capital',
+    name: 'mendoza',
     spots: [
       {
         id: 1,
-        address: 'Cerro Fundición',
+        address: 'direccion',
         link: '',
-        name: 'B° Sanidad (UV)',
-        telephone: null,
-        materials: [
-          MATERIALS.PAPERS,
-          MATERIALS.CARTONS,
-          MATERIALS.PLASTICS,
-          MATERIALS.CANS,
-          MATERIALS.WASTEOIL,
-          MATERIALS.COFFEECAPSULES,
-          MATERIALS.BATTERIES,
-          MATERIALS.ORGANIC,
-        ],
-      },
-      {
-        id: 2,
-        address: 'Potrerillos 799-899',
-        link: '',
-        name: 'Gimnasio N° 4',
-        telephone: null,
-        materials: [
-          MATERIALS.PAPERS,
-          MATERIALS.CARTONS,
-          MATERIALS.PLASTICS,
-          MATERIALS.CANS,
-          MATERIALS.WASTEOIL,
-          MATERIALS.COFFEECAPSULES,
-          MATERIALS.BATTERIES,
-          MATERIALS.ORGANIC,
-        ],
-      },
-      {
-        id: 3,
-        address: 'Alpatacal 3150',
-        link: '',
-        name: 'Gimnasio N° 2',
+        name: 'name',
         telephone: null,
         materials: [
           MATERIALS.PAPERS,
